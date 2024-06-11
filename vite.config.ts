@@ -7,7 +7,7 @@ import type { TemplateChildNode } from '@vue/compiler-core'
 // NodeTypes.ATTRIBUTE
 // NodeTypes.DIRECTIVE
 const enhanceThrottle = createStructuralDirectiveTransform(/^(throttle)$/, (node, dir, context) => {
-  console.log(node, dir, context)
+  // console.log(node, dir, context)
 
   return () => {
     // if (!node.codegenNode) {
