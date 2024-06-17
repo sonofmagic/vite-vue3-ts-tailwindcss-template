@@ -11,8 +11,4 @@ import HelloWorld from '@/components/HelloWorld.vue'
   </div>
 </template>
 
-<style scoped>
-.a {
-  color: red;
-}
-</style>
+<style scoped></style>
