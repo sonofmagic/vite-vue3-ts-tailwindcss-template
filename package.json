@@ -11,6 +11,7 @@
     "test": "vitest run"
   },
   "dependencies": {
+    "sass": "^1.77.8",
     "vue": "^3.4.38",
     "vue-router": "^4.4.3"
   },
