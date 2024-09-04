@@ -7,7 +7,7 @@ const obj = ref({})
 
 <template>
   <div>
-    <h1 class="text-3xl font-bold underline">
+    <h1 class="text-3xl font-bold underline custom-div">
       Hello world!
     </h1>
     <HelloWorld msg="Vite + Vue" :obj="obj" />

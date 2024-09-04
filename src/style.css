@@ -1,3 +1,25 @@
-@tailwind base;
+/* @tailwind base;
 @tailwind components;
-@tailwind utilities;
+@tailwind utilities; */
+
+/* @unocss; */
+
+/* @layer components { */
+.inflex-center {
+  @apply inline-flex justify-center items-center;
+}
+
+.custom-div {
+  @apply inflex-center my-0 font-medium text-center;
+}
+/* } */
+
+/* @layer components {
+.inflex-center {
+  @apply inline-flex justify-center items-center;
+}
+
+.custom-div {
+  @apply inflex-center my-0 font-medium text-center;
+}
+} */
