@@ -10,8 +10,15 @@ obj.a = 1
 <template>
   <div>
     <h1> {{ msg }}</h1>
-    <div>Hello World</div>
+    <div class="foo">
+      Hello World
+    </div>
   </div>
 </template>
 
-<style scoped></style>
+<style>
+.foo {
+  @apply bg-red-50;
+  background-color: blue;
+}
+</style>
