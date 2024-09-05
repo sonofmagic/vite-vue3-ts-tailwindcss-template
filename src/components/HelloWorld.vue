@@ -8,7 +8,7 @@ obj.a = 1
 </script>
 
 <template>
-  <div>
+  <div class="text-base">
     <h1> {{ msg }}</h1>
     <div>Hello World</div>
   </div>

@@ -30,6 +30,9 @@ importers:
       postcss:
         specifier: ^8.4.44
         version: 8.4.44
+      postcss-rem-to-viewport:
+        specifier: ^1.0.3
+        version: 1.0.3
       tailwindcss:
         specifier: ^3.4.10
         version: 3.4.10
@@ -2296,6 +2299,9 @@ packages:
     engines: {node: '>=12.0'}
     peerDependencies:
       postcss: ^8.2.14
+
+  postcss-rem-to-viewport@1.0.3:
+    resolution: {integrity: sha512-6VQQQ6cOFTwZ97NKxjBNIXwYoK0qHGU7ePkmjOXxx0S4ItVur+hnV2mb3bA1BsgohyRJPAXr52F87kOgcAMR/A==}
 
   postcss-selector-parser@6.1.2:
     resolution: {integrity: sha512-Q8qQfPiZ+THO/3ZrOrO0cJJKfpYCagtMUkXbnEfmgUjwXg6z/WBeOyS9APBBPCTSiDV+s4SwQGu8yFsiMRIudg==}
@@ -5628,6 +5634,8 @@ snapshots:
     dependencies:
       postcss: 8.4.44
       postcss-selector-parser: 6.1.2
+
+  postcss-rem-to-viewport@1.0.3: {}
 
   postcss-selector-parser@6.1.2:
     dependencies:
