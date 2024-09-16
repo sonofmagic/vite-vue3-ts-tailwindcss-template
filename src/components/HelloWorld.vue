@@ -1,10 +1,7 @@
 <script setup lang="ts">
-const { msg = 'icebreaker', obj } = defineProps<{
+const { msg = 'icebreaker' } = defineProps<{
   msg?: string
-  obj?: Record<string, string>
 }>()
-console.log(msg, obj)
-obj.a = 1
 </script>
 
 <template>

@@ -1,5 +1,8 @@
 import { icebreaker } from '@icebreakers/eslint-config'
 
-export default icebreaker({}, {
-  ignores: ['**/fixtures/**'],
-})
+export default icebreaker(
+  {
+    vue: true,
+    ignores: ['**/fixtures/**'],
+  },
+)
